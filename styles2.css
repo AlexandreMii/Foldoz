@@ -1,0 +1,79 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #121a30; /* Couleur de fond */
+    color: #ffffff; /* Couleur du texte pour contraste */
+}
+
+.logo-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+}
+
+.logo {
+    width: 100px; /* Ajustez la taille selon vos besoins */
+    height: auto;
+}
+
+.container {
+    margin-left: 120px; /* Ajustez cette valeur pour éviter que le contenu ne chevauche le logo */
+    padding: 20px;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #121a30; /* Couleur de fond */
+    color: #ffffff; /* Couleur du texte pour contraste */
+}
+
+.logo-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+}
+
+.logo {
+    width: 100px; /* Ajustez la taille selon vos besoins */
+    height: auto;
+}
+
+.container {
+    margin-left: 120px; /* Ajustez cette valeur pour éviter que le contenu ne chevauche le logo */
+    padding: 20px;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.search-input {
+    padding: 10px;
+    border: none;
+    border-radius: 25px 0 0 25px;
+    width: 200px;
+    font-size: 16px;
+}
+
+.search-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0 25px 25px 0;
+    background-color: #4791ff; /* Couleur de fond du bouton */
+    color: #ffffff; /* Couleur du texte du bouton */
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+    background-color: #4791ff /*Couleur de fond du bouton au survol */
+}
+
